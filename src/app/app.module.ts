@@ -39,6 +39,9 @@ import { AgregarEditarColaboradorComponent } from './components/Colaborador/agre
 import { ListadoRolesComponent } from './components/Rol/listado-roles/listado-roles.component';
 import { AgregarEditarRolComponent } from './components/Rol/agregar-editar-rol/agregar-editar-rol.component';
 import { AgregarEditarCargoComponent } from './components/Cargo/agregar-editar-cargo/agregar-editar-cargo.component';
+
+import { AgregarEditarComputadorComponent } from './components/Computador/agregar-editar-computador/agregar-editar-computador.component';
+import { ListadoComputadoresComponent } from './components/Computador/listado-computadores/listado-computadores.component';
 // import { SpinnerComponent } from './shared/spinner/spinner.component';
 
 
@@ -65,6 +68,9 @@ import { AgregarEditarCargoComponent } from './components/Cargo/agregar-editar-c
     ListadoRolesComponent,
     AgregarEditarRolComponent,
     AgregarEditarCargoComponent,
+
+    AgregarEditarComputadorComponent,
+     ListadoComputadoresComponent,
     // SpinnerComponent
   ],
   imports: [

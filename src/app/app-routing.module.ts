@@ -22,6 +22,9 @@ import { AgregarEditarColaboradorComponent } from './components/Colaborador/agre
 import { ListadoRolesComponent } from './components/Rol/listado-roles/listado-roles.component';
 import { AgregarEditarRolComponent } from './components/Rol/agregar-editar-rol/agregar-editar-rol.component';
 import { AgregarEditarCargoComponent } from './components/Cargo/agregar-editar-cargo/agregar-editar-cargo.component';
+import { AgregarEditarComputadorComponent } from './components/Computador/agregar-editar-computador/agregar-editar-computador.component';
+import { ListadoComputadoresComponent } from './components/Computador/listado-computadores/listado-computadores.component';
+
 
 const routes: Routes = [
 
@@ -87,10 +90,24 @@ const routes: Routes = [
 {path: 'editarRol/:id',component:AgregarEditarRolComponent },
 
 
+///////////////////////////// computador
+
+{path: 'listComputador', component: ListadoComputadoresComponent},
+{path: 'computador', component: AgregarEditarComputadorComponent},
+{path: 'editarCoputador/:id', component: AgregarEditarComputadorComponent},
+
+
+
+
 
   //siempre al ultimo esto 
-
   {path:'*', redirectTo: 'listPaises', pathMatch: 'full'}
+
+
+
+
+
+
 
 
 
